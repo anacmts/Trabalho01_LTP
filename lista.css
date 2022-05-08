@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+body{
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+}
+
+h3, h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 27px;
+}
+
+.c1{
+    font-family: 'Castoro', serif;
+    text-align: center;
+}
+
+#id1{
+    float: left;
+}

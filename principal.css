@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+   
+    background-color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif , 'Raleway', sans-serif,  'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 27px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 27px;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+ul{
+    background-color: rgb(47, 79, 79);
+    list-style: none;
+    padding: 0;
+    background-color: rgb(47, 79, 79);
+    box-shadow: 10px 5px 5px rgb(169,169,169);
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    color: rgb(220, 220, 220);
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul li a:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+p{
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.c1{
+    font-family: 'Castoro', serif;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding: 20px;
+    font-family: 'Castoro', serif;
+    font-size: 19px;
+    text-align: center;
+  }
+
+.footer a:hover{
+    color: rgb(70, 130, 180);
+    }
+
