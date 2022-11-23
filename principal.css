@@ -1,37 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
 h1{
-   
     background-color: white;
     text-align: center;
-    font-family: 'Montserrat', sans-serif , 'Raleway', sans-serif,  'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-h2{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 27px;
-    margin-top: 1em;
-    text-align: center;
-}
-
-h3{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 27px;
-    margin-left: 4em;
-    margin-right: 4em;
+.cl{
+    text-align: right;
+    float: right;
 }
 
 ul{
     background-color: rgb(47, 79, 79);
     list-style: none;
     padding: 0;
-    background-color: rgb(47, 79, 79);
     box-shadow: 10px 5px 5px rgb(169,169,169);
     font-family: 'Work Sans', sans-serif;
 }
@@ -53,34 +40,42 @@ ul li a:hover{
     background-color: rgb(192, 192, 192);
 }
 
-p{
-    margin-top: 1em;
-    margin-left: 5em;
-    margin-right: 5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-family: 'Roboto Slab', serif;
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 27px;
+    text-align: center;
 }
 
-.c1{
-    font-family: 'Castoro', serif;
-    text-align: center;
+h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .footer {
     background-color: #f1f1f1;
-    margin-top: 1em;
-    margin-left: 5em;
-    margin-right: 5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
     padding: 20px;
-    font-family: 'Castoro', serif;
-    font-size: 19px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
     text-align: center;
   }
 
 .footer a:hover{
     color: rgb(70, 130, 180);
     }
-
