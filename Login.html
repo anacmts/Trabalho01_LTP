@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Fazer login</title>
-        <link rel="icon" type="image/x-icon" href="C:\Users\anacm\OneDrive\Imagens\favicon.ico">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" type="text/css" href="login.css" media="screen">
 
         <meta charset="UTF-8">
@@ -41,8 +41,20 @@
                 <div> 
                     <label for="senha">Senha:</label>
                     <br>
-                    <input type="password" id="senha" name="senha" size="35" placeholder="balaosuspeito" required>
+                    <input type="password" id="senha" name="senha" size="35" placeholder="12345" required>
                     <span class="error">* <?php echo $senhaErr;?></span>
+                    <br>
+                    <br>
+                </div>
+                <div class="field radiobox">
+                    <span>Deseja enviar uma mensagem para a autora do blog?</span>
+                    <br>
+                    <br>
+                    <input type="radio" name="novidades" id="sim" value="sim" checked>
+                    <label for="sim">Sim</label>
+                    
+                    <input type="radio" name="novidades" id="nao" value="nao">
+                    <label for="nao">Não</label>
                     <br>
                     <br>
                 </div>
