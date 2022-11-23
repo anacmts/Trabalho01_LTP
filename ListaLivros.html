@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Os 21 livros mais vendidos de 2021</title>
-
+        <title>Os 14 livros mais vendidos de 2021</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\anacm\OneDrive\Imagens\favicon.ico">
         <link rel="stylesheet" type="text/css" href="lista.css" media="screen">
 
         <meta charset="UTF-8">
@@ -10,7 +10,33 @@
     </head>
 
     <body>
-        
+        <h1> 
+            <div><img src="https://static.vecteezy.com/system/resources/previews/001/200/134/non_2x/book-png.png" style="width: 50px;">
+            </div>Migalhas de Sabedoria
+        </h1>
+
+        <ul>
+            <?php
+            $opcoes = array("Amazon", "Submarino", "Kindle", "Kindle unlimited");
+
+            for($i=0; $i<4; $i++){
+                echo "<li><a href='https://www.amazon.com.br/' target='_blank'>Amazon</a></li>";
+            }
+            ?>
+
+            <!--
+            <li><a href="https://www.amazon.com.br/" target="_blank">Amazon</a></li>
+            <li><a href="https://www.submarino.com.br/" target="_blank">Submarino</a></li>
+            <li><a href="https://www.amazon.com.br/ebooks-kindle/b/?ie=UTF8&node=5475882011&ref_=nav_cs_kindle_books" target="_blank">Kindle</a></li>
+            <li><a href="https://www.amazon.com.br/kindle-dbs/hz/subscribe/ku?ref_=sv_kinc_2&ie=UTF8" target="_blank">Kindle unlimited</a></li>
+            -->
+           
+            <div class="cl">
+                <li><a href="Login.html" target="_blank">Login</a></li>
+                <li><a href="Cadastro.html" target="_blank">Cadastro</a></li>
+            </div>
+        </ul>
+
         <div class="c1">
             <p>Lista dos livros mais vendidos de 2021 de acordo com o gênero:</p>
         </div>
@@ -19,253 +45,53 @@
             <h2>Clássicos literários</h2>
         </div>
 
-        <div>
-            <h3>A Revolução dos Bichos</h3>
+        <h3>A Revolução dos Bichos</h3>
 
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-a-revolucao-dos-bichos.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
-                
-                <strong>Autor:</strong>
-                George Orwell
-                <br>
-                
-                <strong>Páginas:</strong>
-                152
-                <br>
+        <p>
+            <figure>
+                <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-a-revolucao-dos-bichos.jpg" alt="Capa do livro" width="208" height="321">
+            </figure>
+        </p>
 
-                <strong>
-                    <a href="https://www.amazon.com.br/revolu%C3%A7%C3%A3o-dos-bichos-conto-fadas/dp/8535909559/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=IJ8YAOK4ZN4F&keywords=A+Revolu%C3%A7%C3%A3o+dos+bichos&qid=1651490349&sprefix=a+revolu%C3%A7%C3%A3ao+dos+bichos%2Caps%2C310&sr=8-3" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-            
-            <p>
-                <strong>Sinopse:</strong>
-                Escrita em plena Segunda Guerra Mundial e publicada em 1945 depois de ter sido rejeitada por várias editoras, 
-                <br>essa pequena narrativa causou desconforto ao satirizar ferozmente a ditadura stalinista numa época em que os soviéticos 
-                <br>ainda eram aliados do Ocidente na luta contra o eixo nazifascista.
-            </p>
+        <p><b>Autor: </b>George Orwell</p>
+                
+        <p><b>Páginas: </b>152</p>
+
+        <p><a href="https://www.amazon.com.br/revolu%C3%A7%C3%A3o-dos-bichos-conto-fadas/dp/8535909559/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=IJ8YAOK4ZN4F&keywords=A+Revolu%C3%A7%C3%A3o+dos+bichos&qid=1651490349&sprefix=a+revolu%C3%A7%C3%A3ao+dos+bichos%2Caps%2C310&sr=8-3" target="_blank"><b>Compre na Amazon</b></a></p>
+
+        <p>
+            <b>Sinopse:</b>
+            Escrita em plena Segunda Guerra Mundial e publicada em 1945 depois de ter sido rejeitada por várias editoras, 
+            <br>essa pequena narrativa causou desconforto ao satirizar ferozmente a ditadura stalinista numa época em que os soviéticos 
+            <br>ainda eram aliados do Ocidente na luta contra o eixo nazifascista.
+        </p>
         <br>
 
-        <div>
-            <h3>Orgulho e Preconceito</h3>
+        <h3>Orgulho e Preconceito</h3>
             
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-orgulho-e-preconceito.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
+        <p>
+            <figure>
+                <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-orgulho-e-preconceito.jpg" alt="Capa do livro" width="208" height="321">
+            </figure>
+        </p>
+
+        <p><b>Autor: </b>Jane Austen</p>
                 
-                <strong>Autor:</strong>
-                Jane Austen
-                <br>
-                
-                <strong>Páginas:</strong>
-                385
-                <br>
+        <p><b>Páginas: </b>385</p>
 
-                <strong>
-                    <a href="https://www.amazon.com.br/Orgulho-Preconceito-Jane-Austen/dp/8544001823/ref=sr_1_1?keywords=orgulho+e+preconceito&qid=1651490393&sprefix=Orgulho+e+%2Caps%2C270&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
+        <p><a href="https://www.amazon.com.br/Orgulho-Preconceito-Jane-Austen/dp/8544001823/ref=sr_1_1?keywords=orgulho+e+preconceito&qid=1651490393&sprefix=Orgulho+e+%2Caps%2C270&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
 
-            <p>
-                <strong>Sinopse:</strong>
-                Austen nos apresenta Elizabeth Bennet como heroína irresistível e seu pretendente aristocrático, 
-                <br>o sr. Darcy. Nesse livro, aspectos diferentes são abordados: orgulho encontra preconceito, ascendência social 
-                <br>confronta desprezo social, equívocos e julgamentos antecipados conduzem alguns personagens ao sofrimento e ao escândalo.
-            </p>
-
-        <br>
-
-            <h3>Admirável Mundo Novo</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-admiravel-mundo-novo.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
-    
-                <strong>Autor:</strong>
-                Aldous Leonard Huxley
-                <br>
-    
-                <strong>Páginas:</strong>
-                312
-                <br>
-    
-                <strong>
-                    <a href="https://www.amazon.com.br/Admir%C3%A1vel-mundo-Aldous-Leonard-Huxley/dp/8525056006/ref=sr_1_1?keywords=admir%C3%A1vel+mundo+novo&qid=1651490420&sprefix=admir%C3%A1vel%2Caps%2C390&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-
-            <p>
-                <strong>Sinopse:</strong>
-                Ele mostra uma sociedade inteiramente organizada segundo princípios científicos, na qual a mera menção das 
-                <br>antiquadas palavras “pai” e “mãe” produzem repugnância. Um mundo de pessoas programadas em laboratório, 
-                <br>e adestradas para cumprir seu papel numa sociedade de castas biologicamente definidas já no nascimento. 
-                <br>Um mundo no qual a literatura, a música e o cinema só têm a função de solidificar o espírito de conformismo. 
-                <br>Um universo que louva o avanço da técnica, a linha de montagem, a produção em série, a uniformidade, 
-                <br>e que idolatra Henry Ford. Essa é a visão desenvolvida no clarividente romance Huxley.
-            </p>
-            
-        <br>
-
-            <h3>1984</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/livro-1984-george-orwell.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
-    
-                <strong>Autor:</strong>
-                George Orwell
-                <br>
-    
-                <strong>Páginas:</strong>
-                416
-                <br>
-    
-                <strong>
-                    <a href="https://www.amazon.com.br/1984-George-Orwell/dp/8535914846/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=T899A77T2FP0&keywords=1984&qid=1651490442&sprefix=198%2Caps%2C352&sr=8-2" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-
-            <p>
-                <strong>Sinopse:</strong>
-                Winston, herói de 1984, último romance de George Orwell, vive aprisionado na engrenagem totalitária de 
-                <br>uma sociedade completamente dominada pelo Estado, onde tudo é feito coletivamente, mas cada qual vive 
-                <br>sozinho. Ninguém escapa à vigilância do Grande Irmão, a mais famosa personificação literária de um poder 
-                <br>cínico e cruel ao infinito, além de vazio de sentido histórico.
-            </p>
-        
-        <br>
-
-            <h3>O Hobbit</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/livro-o-hobbit.png" alt="Capa do livro" width="208" height="321">
-                </figure>
-    
-                <strong>Autor:</strong>
-                J. R. R. Tolkien
-                <br>
-    
-                <strong>Páginas:</strong>
-                336
-                <br>
-    
-                <strong>
-                    <a href="https://www.amazon.com.br/Hobbit-p%C3%B4ster-J-R-R-Tolkien/dp/8595084742/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=27379KKSM4EQA&keywords=o+hobbit&qid=1651490497&sprefix=o+hobbit%2Caps%2C304&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-
-            <p>
-                <strong>Sinopse:</strong>
-                Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf 
-                <br>bate à sua porta. A partir de então, toda sua vida pacata e campestre soprando anéis de fumaça com seu 
-                <br>belo cachimbo começa a mudar. Ele é convocado a participar de uma aventura por ninguém menos do que 
-                <br>Thorin Escudo-de-Carvalho, um príncipe do poderoso povo dos Anãos.
-            </p>
-        
+        <p>
+            <b>Sinopse:</b>
+            Austen nos apresenta Elizabeth Bennet como heroína irresistível e seu pretendente aristocrático, 
+            <br>o sr. Darcy. Nesse livro, aspectos diferentes são abordados: orgulho encontra preconceito, ascendência social 
+            <br>confronta desprezo social, equívocos e julgamentos antecipados conduzem alguns personagens ao sofrimento e ao escândalo.
+        </p>
         <br>
         
         <div class="c1">
             <h2>Romance</h2>
         </div>
-
-            <h3>Teto para Dois</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-teto-para-dois.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
-                
-                <strong>Autora:</strong>
-                Beth O’leary
-                <br>
-                
-                <strong>Páginas:</strong>
-                400
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Teto-Para-Dois-Beth-Oleary/dp/8551005413/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A4H4MG5IRKDH&keywords=teto+para+dois&qid=1651490559&sprefix=teto+para+do%2Caps%2C438&sr=8-3&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-            
-            <p>
-                <strong>Sinopse:</strong>
-                Sem nunca terem se encontrado pessoalmente, Leon e Tiffy fecham um contrato de seis meses e passam a 
-                <br>resolver as trivialidades do dia a dia por Post-its espalhados pela casa. Mas será que essa solução 
-                <br>aparentemente perfeita resiste a um ex-namorado obsessivo, uma namorada ciumenta, um irmão 
-                <br>encrencado, dois empregos exigentes e alguns amigos superprotetores?
-            </p>
-        
-        <br>
-
-            <h3>Mil Beijos de Garotos</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-mil-beijos-de-garoto.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
-                
-                <strong>Autora:</strong>
-                Tillie Cole
-                <br>
-                
-                <strong>Páginas:</strong>
-                400
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Mil-Beijos-Garoto-Tillie-Cole/dp/8542209826/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=22GLCMOIXIPAY&keywords=mil+beijos+de+garotos&qid=1651490864&sprefix=mil+beijos+de+garotos%2Caps%2C254&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-            
-            <p>
-                <strong>Sinopse:</strong>
-                Quando, aos dezessete anos, Rune Kristiansen retorna da Noruega para o lugar onde passou a infância, 
-                <br>a cidade americana de Blossom Grove, na Geórgia , ele só tem uma coisa em mente: reencontrar 
-                <br>Poppy Litchfield, a garota que era sua cara-metade e que tinha prometido esperar fielmente por seu 
-                <br>retorno. E ele quer descobrir por que, nos dois anos em que esteve fora, ela o deletou de sua vida 
-                <br>sem dar nenhuma explicação.
-            </p>
-        
-        <br>
-
-            <h3>Vermelho, branco e sangue azul</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-vermelho-branco-e-sangue-azul.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
-                
-                <strong>Autora:</strong>
-                Casy Mcquiston
-                <br>
-                
-                <strong>Páginas:</strong>
-                392
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Vermelho-branco-sangue-Casey-McQuiston/dp/8555340942/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ORWX50KQYZMX&keywords=vermelho%2C+branco+e+sangue+azul&qid=1651493846&sprefix=vermelho+branco+e+sangue+azul%2Caps%2C234&sr=8-2" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-            
-            <p>
-                <strong>Sinopse:</strong>
-                Quando sua mãe foi eleita presidenta dos Estados Unidos, Alex Claremont-Diaz se tornou o novo 
-                <br>queridinho da mídia norte-americana. Bonito, carismático e com personalidade forte, Alex tem tudo para 
-                <br>seguir os passos de seus pais e conquistar uma carreira na política, como tanto deseja. Mas quando sua 
-                <br>família é convidada para o casamento real do príncipe britânico Philip, Alex tem que encarar o seu primeiro 
-                <br>desafio diplomático: lidar com Henry, irmão mais novo de Philip, o príncipe mais adorado do mundo, com 
-                <br>quem ele é constantemente comparado ― e que ele não suporta.
-            </p>
-        
-        <br>
 
             <h3>Amor & Gelato</h3>
             
@@ -273,22 +99,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-amor-e-gelato.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autora:</strong>
-                Jenna Evans Welch
-                <br>
-                
-                <strong>Páginas:</strong>
-                320
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Amor-Gelato-Jenna-Evans-Welch/dp/8551002341/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=WPROMRRDUNBS&keywords=amor+e+gelato&qid=1651494748&sprefix=amor+e+gelato%2Caps%2C289&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+
+            <p><b>Autora: </b>Jenna Evans Welch</p>
+
+            <p><b>Páginas: </b>320</p>
+
+            <p><a href="https://www.amazon.com.br/Amor-Gelato-Jenna-Evans-Welch/dp/8551002341/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=WPROMRRDUNBS&keywords=amor+e+gelato&qid=1651494748&sprefix=amor+e+gelato%2Caps%2C289&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse: </b>
                 Depois da morte da mãe, Lina fica com a missão de realizar um último pedido: ir até a Itália para conhecer o 
                 <br>pai. Do dia para a noite, ela se vê na famosa paisagem da Toscana, morando em uma casa localizada no 
                 <br>mesmo terreno de um cemitério memorial de soldados americanos da Segunda Guerra Mundial, com um 
@@ -304,22 +124,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-sete-maridos-evelyn-hugo.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autora:</strong>
-                Taylor Jenkins Reid
-                <br>
-                
-                <strong>Páginas:</strong>
-                360
-                <br>
+            </p>    
 
-                <strong>
-                    <a href="https://www.amazon.com.br/Os-sete-maridos-Evelyn-Hugo/dp/8584391509/ref=sr_1_1?keywords=os+sete+maridos+de+evelyn+hugo&qid=1651495245&sprefix=os+sete+maridos+de+%2Caps%2C286&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
+            <p><b>Autora: </b>Taylor Jenkins Reid</p>
+                
+            <p><b>Páginas: </b>360</p>
+
+            <p><a href="https://www.amazon.com.br/Os-sete-maridos-Evelyn-Hugo/dp/8584391509/ref=sr_1_1?keywords=os+sete+maridos+de+evelyn+hugo&qid=1651495245&sprefix=os+sete+maridos+de+%2Caps%2C286&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Lendária estrela de Hollywood, Evelyn Hugo sempre esteve sob os holofotes ― seja estrelando uma 
                 <br>produção vencedora do Oscar, protagonizando algum escândalo ou aparecendo com um novo marido… 
                 <br>pela sétima vez. Agora, prestes a completar oitenta anos e reclusa em seu apartamento no Upper East Side, 
@@ -332,7 +146,7 @@
         <br>
 
         <div class="c1">
-            <h2>Populares de 2021</h2>
+            <h2>Populares de 2020</h2>
         </div>
             <h3>A Garota do Lago</h3>
             
@@ -340,22 +154,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/livro-a-garota-do-lago.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autor:</strong>
-                Charlie Donlea
-                <br>
-                
-                <strong>Páginas:</strong>
-                296
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Garota-do-Lago-Charlie-Donlea/dp/856240988X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1HQD1Y7VQRJ0E&keywords=a+garota+do+lago&qid=1651538848&sprefix=a+garota+do+lago%2Caps%2C340&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autor: </b>Charlie Donlea</p>
+                
+            <p><b>Páginas: </b>296</p>
+
+            <p><a href="https://www.amazon.com.br/Garota-do-Lago-Charlie-Donlea/dp/856240988X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1HQD1Y7VQRJ0E&keywords=a+garota+do+lago&qid=1651538848&sprefix=a+garota+do+lago%2Caps%2C340&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Summit Lake, uma pequena cidade entre montanhas, é esse tipo de lugar, bucólico e com encantadoras casas 
                 <br>dispostas à beira de um longo trecho de água intocada. Duas semanas atrás, a estudante de direito 
                 <br>Becca Eckersley foi brutalmente assassinada em uma dessas casas. Filha de um poderoso advogado, 
@@ -373,22 +181,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-torto-arado.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autor:</strong>
-                Itamar Vieira Junior
-                <br>
-                
-                <strong>Páginas:</strong>
-                264
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Torto-arado-Itamar-Vieira-Junior/dp/6580309318/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1E4TZ3PULBT4W&keywords=torto+arado&qid=1651538936&sprefix=torto+arado%2Caps%2C276&sr=8-2&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autor: </b>Itamar Vieira Junior</p>
+                
+            <p><b>Páginas: </b>264</p>
+
+            <p><a href="https://www.amazon.com.br/Torto-arado-Itamar-Vieira-Junior/dp/6580309318/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1E4TZ3PULBT4W&keywords=torto+arado&qid=1651538936&sprefix=torto+arado%2Caps%2C276&sr=8-2&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Nas profundezas do sertão baiano, as irmãs Bibiana e Belonísia encontram uma velha e misteriosa 
                 <br>faca na mala guardada sob a cama da avó. Ocorre então um acidente. E para sempre suas vidas estarão 
                 <br>ligadas, a ponto de uma precisar ser a voz da outra. Numa trama conduzida com maestria e com uma 
@@ -408,22 +210,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-o-duque-eu.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autora:</strong>
-                Julia Quinn
-                <br>
-                
-                <strong>Páginas:</strong>
-                288
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/duque-eu-Julia-Quinn/dp/8580411467/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1651538987&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autora: </b>Julia Quinn</p>
+                
+            <p><b>Páginas: </b>288</p>
+
+            <p><a href="https://www.amazon.com.br/duque-eu-Julia-Quinn/dp/8580411467/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1651538987&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Simon Basset, o irresistível duque de Hastings, acaba de retornar a Londres depois de seis anos viajando 
                 <br>pelo mundo. Rico, bonito e solteiro, ele é um prato cheio para as mães da alta sociedade, que só 
                 <br>pensam em arrumar um bom partido para suas filhas. Simon, porém, tem o firme propósito de nunca se 
@@ -439,22 +235,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/livro-duna-frank-herbert.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autor:</strong>
-                Frank Herbert
-                <br>
-                
-                <strong>Páginas:</strong>
-                680
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Duna-com-Sobrecapa-P%C3%B4ster-Filme/dp/6586064694/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=1651539020&sr=8-2" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autor: </b>Frank Herbert</p>
+                
+            <p><b>Páginas: </b>680</p>
+
+            <p><a href="https://www.amazon.com.br/Duna-com-Sobrecapa-P%C3%B4ster-Filme/dp/6586064694/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=1651539020&sr=8-2" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 A vida do jovem Paul Atreides está prestes a mudar radicalmente. Após a visita de uma mulher misteriosa, 
                 <br>ele é obrigado a deixar seu planeta natal para sobreviver ao ambiente árido e severo de Arrakis, o 
                 <br>Planeta Deserto. Envolvido numa intrincada teia política e religiosa, Paul divide-se entre as 
@@ -474,22 +264,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-malibu-renasce.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autora:</strong>
-                Taylor Jenkins Reid
-                <br>
-                
-                <strong>Páginas:</strong>
-                360
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Malibu-renasce-Taylor-Jenkins-Reid/dp/8584392165/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36C666IHHUGUB&keywords=malibu+renasce&qid=1651539108&sprefix=malibu+re%2Caps%2C1235&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autora: </b>Taylor Jenkins Reid</p>
+                
+            <p><b>Páginas: </b>360</p>
+
+            <p><a href="https://www.amazon.com.br/Malibu-renasce-Taylor-Jenkins-Reid/dp/8584392165/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36C666IHHUGUB&keywords=malibu+renasce&qid=1651539108&sprefix=malibu+re%2Caps%2C1235&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Malibu, agosto de 1983. É o dia da festa anual de Nina Riva, e todos anseiam pelo cair da noite e por toda 
                 <br>a emoção que ela promete trazer. A pessoa menos interessada no evento é Nina, que nunca gostou de ser o 
                 <br>centro das atenções e acabou de ter o fim do relacionamento com um tenista profissional totalmente 
@@ -506,22 +290,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-vida-invisivel-de-addie-larue.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autora:</strong>
-                V. E. Schwab
-                <br>
-                
-                <strong>Páginas:</strong>
-                504
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/vida-invis%C3%ADvel-Addie-LaRue/dp/6555872551/ref=sr_1_1?crid=3FGCR40VKE3UT&keywords=a+vida+invis%C3%ADvel+de+addie+larue&qid=1651539147&sprefix=a+vida+invis%C3%ADvel+de+add%2Caps%2C294&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autora: </b>V. E. Schwab</p>
+                
+            <p><b>Páginas: </b>504</p>
+
+            <p><a href="https://www.amazon.com.br/vida-invis%C3%ADvel-Addie-LaRue/dp/6555872551/ref=sr_1_1?crid=3FGCR40VKE3UT&keywords=a+vida+invis%C3%ADvel+de+addie+larue&qid=1651539147&sprefix=a+vida+invis%C3%ADvel+de+add%2Caps%2C294&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 França: 1714. Addie LaRue não queria pertercer a ninguém ou a lugar nenhum. Em um momento de desespero, 
                 <br>a jovem faz um pacto: a vida eterna, sob a condição de ser esquecida por quem a conhecer. Um piscar 
                 <br>de olhos, e, como um sopro, Addie se vai. Uma virada de costas, e sua existência se dissipa na memória 
@@ -532,37 +310,6 @@
             </p>
 
         <br>
-
-            <h3>É Assim que Acaba</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-e-assim-que-acaba.jpg" alt="Capa do livro" width="208" height="321">
-                </figure>
-                
-                <strong>Autora:</strong>
-                Colleen Hoover
-                <br>
-                
-                <strong>Páginas:</strong>
-                368
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Assim-que-Acaba-Colleen-Hoover/dp/8501112518/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CA9LD5YM9RBF&keywords=%C3%A9+assim+que+acaba&qid=1651539170&sprefix=%C3%A9+assim+que+acaba%2Caps%2C286&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-            
-            <p>
-                <strong>Sinopse:</strong>
-                Lily nem sempre teve uma vida fácil, mas isso nunca a impediu de trabalhar arduamente para conquistar a vida tão sonhada. 
-                <br>Ela percorreu um longo caminho desde a infância, em uma cidadezinha no Maine: se formou em marketing, mudou para Boston 
-                <br>e abriu a própria loja. Então, quando se sente atraída por um lindo neurocirurgião chamado Ryle Kincaid, tudo parece perfeito 
-                <br>demais para ser verdade. Ryle é confiante, teimoso, talvez até um pouco arrogante. Ele também é sensível, brilhante e se sente 
-                <br>atraído por Lily. Porém, sua grande aversão a relacionamentos é perturbadora. Além de estar sobrecarregada com as questões sobre 
-                <br>seu novo relacionamento, Lily não consegue tirar Atlas Corrigan da cabeça — seu primeiro amor e a ligação com o passado que ela 
-                <br>deixou para trás.
-            </p>
 
         <br>
 
@@ -576,22 +323,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/a-paciente-silenciosa.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autor:</strong>
-                Alex Michaelides
-                <br>
-                
-                <strong>Páginas:</strong>
-                368
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/paciente-silenciosa-Alex-Michaelides/dp/8501116432/ref=sr_1_1?keywords=a+paciente+silenciosa&qid=1651539210&sprefix=a+paciente%2Caps%2C363&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autor: </b>Alex Michaelides</p>
+                
+            <p><b>Páginas: </b>368</p>
+
+            <p><a href="https://www.amazon.com.br/paciente-silenciosa-Alex-Michaelides/dp/8501116432/ref=sr_1_1?keywords=a+paciente+silenciosa&qid=1651539210&sprefix=a+paciente%2Caps%2C363&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Alicia Berenson tinha uma vida perfeita. Ela era uma pintora famosa casada com um fotógrafo bem-sucedido e morava numa área nobre 
                 <br>de Londres que dá para o parque de Hampstead Heath. Certa noite, Gabriel, seu marido, voltou tarde para casa depois de um ensaio 
                 <br>para uma revista de moda e, de repente, a vida de Alicia mudou completamente. Alicia tinha 33 anos quando deu cinco tiros no rosto 
@@ -600,37 +341,6 @@
 
         <br>
 
-            <h3>O Homem de Giz</h3>
-            
-            <p>
-                <figure>
-                    <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-o-homem-de-giz.png" alt="Capa do livro" width="208" height="321">
-                </figure>
-                
-                <strong>Autor:</strong>
-                C. J. Tudor
-                <br>
-                
-                <strong>Páginas:</strong>
-                272
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Homem-Giz-C-J-Tudor/dp/8551002937/ref=sr_1_1?crid=15IR2X9PHM8AM&keywords=o+homem+de+giz&qid=1651539230&sprefix=o+homem%2Caps%2C391&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74" target="_blank">Compre na Amazon</a>
-                </strong>
-            </p>
-            
-            <p>
-                <strong>Sinopse:</strong>
-                Em 1986, Eddie e os amigos passam a maior parte dos dias andando de bicicleta pela pacata vizinhança em busca de aventuras. Os 
-                <br>desenhos a giz são seu código secreto: homenzinhos rabiscados no asfalto; mensagens que só eles entendem. Mas um desenho 
-                <br>misterioso leva o grupo de crianças até um corpo desmembrado e espalhado em um bosque. Depois disso, nada mais é como antes. 
-                <br>Em 2016, Eddie se esforça para superar o passado, até que um dia ele e os amigos de infância recebem um mesmo aviso: o desenho 
-                <br>de um homem de giz enforcado. Quando um dos amigos aparece morto, Eddie tem certeza de que precisa descobrir o que de fato 
-                <br>aconteceu trinta anos atrás.
-            </p>
-
-        <br>
 
             <h3>Mentirosos</h3>
             
@@ -638,22 +348,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-livro-mentirosos.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autor:</strong>
-                E. Lockhart
-                <br>
-                
-                <strong>Páginas:</strong>
-                272
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Mentirosos-Lockhart/dp/8565765482/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1BPYM2WPJF8VB&keywords=mentirosos&qid=1651539262&sprefix=mentirosos%2Caps%2C292&sr=8-5" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+
+            <p><b>Autor: </b>E. Lockhart</p>
+
+            <p><b>Páginas: </b>272</p>
+
+            <p><a href="https://www.amazon.com.br/Mentirosos-Lockhart/dp/8565765482/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1BPYM2WPJF8VB&keywords=mentirosos&qid=1651539262&sprefix=mentirosos%2Caps%2C292&sr=8-5" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Os Sinclair são uma família rica e renomada, que se recusa a admitir que está em decadência e se agarra a todo custo às tradições. 
                 <br>Assim, todo ano o patriarca, suas três filhas e seus respectivos filhos passam as férias de verão em sua ilha particular. 
                 <br>Cadence - neta primogênita e principal herdeira -, seus primos Johnny e Mirren e o amigo Gat são inseparáveis desde pequenos, 
@@ -673,22 +377,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/livro-mulheres-que-correm-com-os-lobos.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autora:</strong>
-                Clarissa Pinkola Estés
-                <br>
-                
-                <strong>Páginas:</strong>
-                576
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/Mulheres-que-Correm-com-Lobos/dp/853252978X/ref=sr_1_1?crid=1548QJ3WAH4EW&keywords=mulheres+que+correm+com+lobos&qid=1651539284&sprefix=mulheres%2Caps%2C435&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autora: </b>Clarissa Pinkola Estés</p>
+                
+            <p><b>Páginas: </b>576</p>
+
+            <p><a href="https://www.amazon.com.br/Mulheres-que-Correm-com-Lobos/dp/853252978X/ref=sr_1_1?crid=1548QJ3WAH4EW&keywords=mulheres+que+correm+com+lobos&qid=1651539284&sprefix=mulheres%2Caps%2C435&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Os lobos foram pintados com um pincel negro nos contos de fada e até hoje assustam meninas indefesas. Mas nem sempre eles foram 
                 <br>vistos como criaturas terríveis e violentas. Na Grécia antiga e em Roma, o animal era o consorte de Artemis, a caçadora, e 
                 <br>carinhosamente amamentava os heróis. A analista junguiana Clarissa Pinkola Estés acredita que na nossa sociedade as mulheres 
@@ -704,22 +402,16 @@
                 <figure>
                     <img src="https://www.amorporlivros.com.br/wp-content/uploads/capa-segredos-da-mente-milionaria.jpg" alt="Capa do livro" width="208" height="321">
                 </figure>
-                
-                <strong>Autor:</strong>
-                Charles Duhigg
-                <br>
-                
-                <strong>Páginas:</strong>
-                408
-                <br>
-
-                <strong>
-                    <a href="https://www.amazon.com.br/segredos-mente-milion%C3%A1ria-Harv-Eker/dp/8575422391/ref=sr_1_1?crid=3RW6PXUX94IGO&keywords=os+segredos+da+mente+milion%C3%A1ria&qid=1651539305&sprefix=os+segredos%2Caps%2C349&sr=8-1" target="_blank">Compre na Amazon</a>
-                </strong>
             </p>
+                
+            <p><b>Autor: </b>Charles Duhigg</p>
+                
+            <p><b>Páginas: </b>408</p>
+
+            <p><a href="https://www.amazon.com.br/segredos-mente-milion%C3%A1ria-Harv-Eker/dp/8575422391/ref=sr_1_1?crid=3RW6PXUX94IGO&keywords=os+segredos+da+mente+milion%C3%A1ria&qid=1651539305&sprefix=os+segredos%2Caps%2C349&sr=8-1" target="_blank"><b>Compre na Amazon</b></a></p>
             
             <p>
-                <strong>Sinopse:</strong>
+                <b>Sinopse:</b>
                 Se as suas finanças andam na corda bamba, talvez esteja na hora de você refletir sobre o que T. Harv Eker chama de "o seu modelo de 
                 <br>dinheiro" - um conjunto de crenças que cada um de nós alimenta desde a infância e que molda o nosso destino financeiro, quase 
                 <br>sempre nos levando para uma situação difícil. Neste livro, Eker mostra como substituir uma mentalidade destrutiva - que você 
