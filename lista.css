@@ -1,27 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-body{
-    margin-left: 5em;
-    margin-right: 5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    color: black;
-    font-family: 'Roboto Slab', serif;
-    font-size: 17px;
+*{
+    box-sizing: border-box;
 }
 
-h3, h2{
+h1{
+    background-color: white;
+    text-align: center;
     font-family: 'Work Sans', sans-serif;
-    font-size: 27px;
+}
+
+.cl{
+    text-align: right;
+    float: right;
+}
+
+ul{
+    background-color: rgb(47, 79, 79);
+    list-style: none;
+    padding: 0;
+    box-shadow: 10px 5px 5px rgb(169,169,169);
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    color: rgb(220, 220, 220);
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul li a:hover{
+    background-color: rgb(192, 192, 192);
 }
 
 .c1{
-    font-family: 'Castoro', serif;
+    font-family: 'Work Sans', sans-serif;
     text-align: center;
 }
 
-#id1{
-    float: left;
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 27px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+figure{
+    margin-left: 50px;
+    padding-left: 10px;
 }
